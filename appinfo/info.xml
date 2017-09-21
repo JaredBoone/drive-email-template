@@ -2,22 +2,16 @@
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>driveemailtemplate</id>
-    <name>Drive E Mail Template</name>
+    <name>Drive EMail Template</name>
     <summary>Drive EMail Template</summary>
     <description><![CDATA[Custom email template for Drive]]></description>
     <licence>agpl</licence>
     <author mail="jared.boone@sony.com" >Jared Boone</author>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <namespace>DriveEMailTemplate</namespace>
     <category>customization</category>
     <bugs>https://github.com/JaredBoone/drive-email-template/issues</bugs>
     <dependencies>
         <nextcloud min-version="12" max-version="12"/>
     </dependencies>
-    <navigations>
-        <navigation>
-            <name>Drive E Mail Template</name>
-            <route>driveemailtemplate.page.index</route>
-        </navigation>
-    </navigations>
 </info>
